@@ -1,9 +1,14 @@
 def setNums():
     global side
-def surfacearea():
+def surfaceArea():
     global sum
     sum = ((side**2)*6)
-    output = "{:<6}{:6.2f}".format(side)
+   
 
-side = float(input("Please enter the side of a cube to calculate the surface area
-    
+side = float(input("Please enter the side of a cube to calculate the surface area:"))
+
+setNums()
+surfaceArea()
+        
+
+print("The surface area of a cube whose sides are {:.5f} is {:.5f}".format(side,sum))
