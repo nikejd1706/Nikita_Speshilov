@@ -1,23 +1,17 @@
-global subtotal, disc, price
+global subtotal, disc, total
 subtotal = 0;
 disc = 0;
-price = 0;
+total = 0;
 
 def format (item, pr):
     print("*  {:<15}......${:10.2f}".format(item, pr))
 
 def discount():
-    #use the global keyword here to ensure that
-    #python is using the global variable and not
-    #creating a new one
-    global subtotal, disc, price
-    if price >= 2000:
-        disc = subtotal**0.15;
-        return "Your discount is $",subtotal**.15;
-    if price < 2000:
-        return "$0"
+    global subtotal, disc, total
+    if subtotal >= 2000:
+        disc = subtotal*0.15;
+    if subtotal < 2000:
         disc = 0;
-
 
 item1 = input("Please enter item 1:")
 price1 = float(input("Please enter the price:"))
@@ -32,7 +26,7 @@ item4 = input("Please enter item 4:")
 price4 = float(input("Please enter the price:"))
 
 subtotal = price1+price2+price3+price4
-discount();
+discount()
 tax = subtotal*.08
 total = subtotal- disc + tax
 
@@ -44,6 +38,7 @@ format(item4, price4)
 
 format("Subtotal: ", subtotal)
 format("Discount: ", disc)
+format("Total: ", total)
 print("_________________________________________")
 print("Thank you for shopping!")
 
