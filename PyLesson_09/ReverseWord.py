@@ -10,12 +10,15 @@ print(output)
 print("\n________________")
 print("Reversed....")
 
-def reverse():
-    output = ""
-    for i in myList:
-        
-reverse()
 
+def reverse(myList):
+    output = " "
+    for i in range(len(myList),0,-1):
+            output += myList[i-1] + " "
+    print(output)
+
+reverse(myList)
+  
 
         
         
