@@ -1,8 +1,8 @@
-myList = ["cream", "racko", "dog", "stone", "clown"]
+words = ["cream", "racko", "dog", "stone", "clown"]
 
-def first(myList):
-    for i in myList:
-        print(myList[])
-first(myList)
+def first(words):
+    for word in words:
+        print(word[0])
+first(words)
         
 
