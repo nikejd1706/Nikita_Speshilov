@@ -1,9 +1,10 @@
 import random
+average = 0
 
 numbers = []
 
 for number in range(0,10):
-    random.randint(1,100)
+    numbers.append(random.randint(1,100))
     
 
 print("Numbers.....")
@@ -11,18 +12,19 @@ print("Numbers.....")
 output = ""
 
 for number in numbers:
-    output += number + " "
+    output += str(number) + " "
 print(output)
-print("/n")
+print("\n")
 
-print("The average of the above numbers is...",average(numbers))
 
-def average():
+
+def average(numbers):
     average = 0
     for number in numbers:
-        sum += num
-        return average/numbers
-average()
+        average += number
+    return average/len(numbers)
+
+print("The average of the above numbers is...",average(numbers))
 
 
 
