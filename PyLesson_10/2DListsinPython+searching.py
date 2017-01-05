@@ -21,3 +21,10 @@ for value in values:
     for num in value:
         output += str(num) + "\t"
     print(output)
+
+print("\nSearch the list...")
+count = 0
+for value in values:
+    for number in value:
+        count += number
+print("The sum of the values in the list is equal to ", count)
