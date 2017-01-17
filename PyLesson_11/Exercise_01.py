@@ -26,9 +26,11 @@ def main():
     hours = int(input("Please enter the hours: "))
     minutes = int(input("Please enter the minutes: "))
 
-    speed = MilesPerHour(self, d, h, m)
+    speed = MilesPerHour(distance, hours, minutes)
 
-    print("")
+    print(speed.getDist(),"miles in ", speed.getHours()," hours and", speed.getMins(),"minutes... is ", speed.getMPH())
+
+main()
     
     
     
