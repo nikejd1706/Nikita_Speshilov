@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+h1 {color: blue;
+	font-style: italic;}
+p  {color: green;
+	font-family: 'Shadows Into Light', cursive;}
+a  {color: red;}
