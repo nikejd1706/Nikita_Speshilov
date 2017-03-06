@@ -1,23 +1,23 @@
-p:nth-child(even){
-	color: green;
+* {
+	color: blue;
 }
 
-p:nth-child(odd){
+p:not(.Yummy){
 	color: red;
 }
 
 tr:nth-child(odd) > td:nth-child(even){
-	background-color: green;
+	background-color: white;
 }
 
 tr:nth-child(odd) > td:nth-child(odd){
-	background-color: red;
+	background-color: yellow;
 }
 
 tr:nth-child(even) > td:nth-child(odd){
-	background-color: green;
+	background-color: white;
 }
 
 tr:nth-child(even) > td:nth-child(even){
-	background-color: red;
+	background-color: yellow;
 }
