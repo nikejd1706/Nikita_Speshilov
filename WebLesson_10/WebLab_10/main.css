@@ -36,3 +36,10 @@ body {
     background: purple;
     color: yellow;
 }
+
+#topMenu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px Tahoma;
+}
