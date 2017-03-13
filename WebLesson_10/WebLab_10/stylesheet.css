@@ -20,21 +20,21 @@ body {
 }
 
 #bigwrapper {
-    border: 1px solid purple;
+    border: 1px solid black;
     width: 1000px;
     margin: 20px auto;
     text-align: left;
 }
 
 #topheader {
-    background: yellow;
+    background: blue;
     border: 1px solid green;
     padding: 20px;
 }
 
 #topMenu {
-    background: purple;
-    color: yellow;
+    background: yellow;
+    color: blue;
 }
 
 #topMenu li {
@@ -55,7 +55,7 @@ body {
     width: 220px;
     margin: 20px 0px;
     padding: 30px;
-    background: #edcaff;
+    background: #25acff;
 }
 
 #pageFooter {
