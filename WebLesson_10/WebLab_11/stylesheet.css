@@ -44,22 +44,31 @@ body {
     font: bold 14px Tahoma;
 }
 
+#flexDiv {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+
 #mainSection {
-    float: left;
-    width: 660px;
-    margin: 30px; /* 720 total px, 280 left*/
+    border: 1px solid blue;
+    -webkit-box-flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-flex: 1000;
+    -webkit-box-ordinal-group: 2;
+
 }
 
 #sideNews {
-    float: left;
-    width: 220px;
+    border: 1px solid red;
     margin: 20px 0px;
     padding: 30px;
     background: #25acff;
+    -webkit-box-ordinal-group: 1;
+    -webkit-box-flex: 1;
 }
 
 #pageFooter {
-    clear: both;
     text-align: center;
     padding: 20px;
     border-top: 2px solid green;
