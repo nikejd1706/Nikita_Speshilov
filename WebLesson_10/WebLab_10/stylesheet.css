@@ -27,7 +27,7 @@ body {
 }
 
 #topheader {
-    background: blue;
+    background: -webkit-linear-gradient(right, green, red);
     border: 1px solid green;
     padding: 20px;
 }
@@ -42,6 +42,13 @@ body {
     list-style: none;
     padding: 5px;
     font: bold 14px Tahoma;
+    background: grey;
+    -webkit-border-radius: 3px;
+}
+
+#topMenu li:hover {
+    -webkit-transform: scale(1.2, 1.2);
+    color: green;
 }
 
 #mainSection {
@@ -56,7 +63,6 @@ body {
     margin: 20px 0px;
     padding: 30px;
     background: #25acff;
-}
 
 #pageFooter {
     clear: both;
