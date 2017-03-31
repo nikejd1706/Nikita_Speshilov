@@ -55,6 +55,11 @@ body {
     float: left;
     width: 660px;
     margin: 30px; /* 720 total px, 280 left*/
+    -webkit-transition:-webkit-transform;
+}
+
+#mainSection:hover {
+    -webkit-transform: translate(60px, 80px) rotate(90deg) scale(1.2);
 }
 
 #sideNews {
@@ -63,6 +68,13 @@ body {
     margin: 20px 0px;
     padding: 30px;
     background: #25acff;
+    -webkit-transition:-webkit-transform;
+            }
+
+#sideNews:hover {
+    -webkit-transform: translate(30px, 40px) rotate(270deg) scale(1.2);
+}
+
 
 #pageFooter {
     clear: both;
