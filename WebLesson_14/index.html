@@ -2,21 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title></title>
+    <script src = "script.js"></script>
 </head>
 <body>
     <form name = "input">
         User Name: <input type = "text" name = "username"/><br/><br/>
         Password: <input type = "password" name = "password"/><br/><br/>
-        <input type = "submit" value = "Submit!" onClick = "getValue()" />
+        <input type = "submit" value = "Submit!" onClick = "validate()" />
     </form>
-
-    <script type = "text/javascript">
-        function getValue() {
-            var x = document.forms.input.username.name;
-            alert(x);
-        }
-
-    </script>
 </body>
 </html>
