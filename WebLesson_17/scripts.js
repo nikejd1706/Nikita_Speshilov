@@ -9,12 +9,13 @@ function drag() {
     leftbox.addEventListener("drop", drop, false);
 }
 
-function startDrag(e){
+function startDrag(e) {
     var pic = '<img id = "mantisShrimp" src = "https://upload.wikimedia.org/wikipedia/commons/3/39/OdontodactylusScyllarus2.jpg">';
     e.dataTransfer.setData('Picture', pic);
 }
 
-function drop(e){
+function drop(e)
+{
     e.preventDefault();
     leftBox.innerHTML = e.dataTransfer.getData('Picture');
 }
