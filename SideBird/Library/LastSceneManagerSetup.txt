@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/speshilovn0763/AppData/Local/Temp/Temp1_TappyPlane-master.zip/TappyPlane-master/Assets/Scenes/Play.unity
+  isLoaded: 1
+  isActive: 1

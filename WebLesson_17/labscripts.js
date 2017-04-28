@@ -1,5 +1,5 @@
 function drag() {
-    mantis = document.getElementById("mantisShrimp");
+    mantis = document.getElementById("tennisball");
     leftbox = document.getElementById("leftBox");
 
     mantis.addEventListener("dragstart", startDrag, false);
@@ -12,7 +12,7 @@ function drag() {
 }
 
 function startDrag(e) {
-    var pic = '<img id = "mantisShrimp" src = "https://upload.wikimedia.org/wikipedia/commons/3/39/OdontodactylusScyllarus2.jpg">';
+    var pic = '<img id = "tennisball" src = "https://vignette4.wikia.nocookie.net/nintendo/images/3/3e/MTO_Tennis_Ball.png/revision/latest?cb=20120504075543&path-prefix=en">';
     e.dataTransfer.setData('Picture', pic);
 }
 

@@ -1,0 +1,19 @@
+#leftBox {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border: 5px solid blue;
+}
+
+#rightBox {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border: 5px solid red;
+}
+
+#tennisball {
+    max-height: 100px;
+}
